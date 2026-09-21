@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cbpo0tkgh3sdw"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_0rwas"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0rwas"]
+
+[node name="Node2D" type="CharacterBody2D" unique_id=298581960]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=1557391936]
+mesh = SubResource("BoxMesh_0rwas")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=808611492]
+shape = SubResource("RectangleShape2D_0rwas")
